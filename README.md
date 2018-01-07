@@ -22,3 +22,6 @@ You can contribute in two ways:
 5. Check how this page looks with `hugo serve`
 6. Commit, push, open a pull request to my repo
 
+# In case it's not clear
+
+This is a satirical website. I do not encourage you to write JS like this, and if used correctly, it's actually a nice language ;)

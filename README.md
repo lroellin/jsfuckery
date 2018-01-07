@@ -24,4 +24,4 @@ You can contribute in two ways:
 
 # In case it's not clear
 
-This is a satirical website. I do not encourage you to write JS like this, and if used correctly, it's actually a nice language ;)
+This is a satirical website. I do not encourage you to write JS like this, and if used correctly, it's actually a nice language 😉

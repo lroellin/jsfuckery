@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
-githubUsername: "github.com/lroellin"
+githubUsername: "lroellin"
 ---
 
 Some text about this fuckery

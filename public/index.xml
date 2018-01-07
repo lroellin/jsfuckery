@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JSFuckery</title>
+    <link>https://example.org/</link>
+    <description>Recent content on JSFuckery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <lastBuildDate>Sun, 07 Jan 2018 11:45:58 +0100</lastBuildDate>
+    
+	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Multi Threading</title>
+      <link>https://example.org/fuckery/multi-threading/</link>
+      <pubDate>Sun, 07 Jan 2018 11:45:58 +0100</pubDate>
+      
+      <guid>https://example.org/fuckery/multi-threading/</guid>
+      <description>Richi</description>
+    </item>
+    
+  </channel>
+</rss>

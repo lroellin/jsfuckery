@@ -12,6 +12,7 @@
                     {{ .Date.Format "Jan 2, 2006 15:04" }}
                     · {{ if lt 1 .WordCount }}{{ .WordCount }} words{{ else }}{{ .WordCount }} word{{ end }}
                     · {{ .ReadingTime }} minute read
+                    . <a href="https://github.com/{{ .Page.Params.githubUsername }}">{{ .Page.Params.githubUsername }}</a>
                       <span class="tags">
                       {{ with .Params.tags }}
                       {{ if ge (len .) 1 }}
@@ -19,6 +20,7 @@
                               <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>
                           {{ end }}
                       {{ end }}
+
                       {{ end}}
                       </span>
                     </h2>

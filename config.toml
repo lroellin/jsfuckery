@@ -51,7 +51,6 @@ hasCJKLanguage = false
 
 	olderPosts = ""
 	newerPosts = ""
-	copyright = ""
 
 	# show latest posts in single page
 	showLatestPosts = false

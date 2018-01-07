@@ -6,14 +6,14 @@ This page is built on Hugo, a static site generator. If you're already familiar 
 
 You can contribute in two ways:
 
-## simple contribution
+## Simple contribution
 
 1. Fork this repo
 2. Add a file to `content/fuckery`, you can copy one of the existing ones
 3. Change the *front matter*, the stuff at the top with the three dashes (`---`)
 4. Open a pull request to my repo
 
-## Hugo connaisseur contribution
+## Hugo-connaisseur contribution
 
 1. Clone this repo
 2. Make a new post: `hugo new fuckery/<title>.md`

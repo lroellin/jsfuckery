@@ -10,7 +10,7 @@ You can contribute in two ways:
 
 1. Fork this repo
 2. Add a file to `content/fuckery`, you can copy one of the existing ones
-3. Change the *front matter*, the stuff at the top with the three dashes (`---`)
+3. Change the *front matter*, the stuff at the top between the three dashes (`---`)
 4. Open a pull request to my repo
 
 ## Hugo-connaisseur contribution
@@ -18,8 +18,8 @@ You can contribute in two ways:
 1. Clone this repo
 2. Make a new post: `hugo new fuckery/<title>.md`
 3. Open your file created in `/content/fuckery`
-4. Change the *front matter*, the stuff at the top with the three dashes (`---`)
-5. Check how this page looks with `hugo serve`
+4. Change the *front matter*, the stuff at the top between the three dashes (`---`)
+5. Check how this page looks with `hugo server`
 6. Commit, push, open a pull request to my repo
 
 # In case it's not clear

@@ -11,8 +11,9 @@ function foo() {
         let y = 6
         const z = 7
     }
-    console.log(x) // 5
-    console.log(y) // undefined
-    console.log(z) // undefined
+    console.log(x)
+    console.log(y)
+    console.log(z)
 }
+foo() // 5, undefined, undefined
 ```

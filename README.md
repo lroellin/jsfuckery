@@ -12,6 +12,7 @@ You can contribute in two ways:
 2. Add a file to `content/fuckery`, you can copy one of the existing ones
 3. Change the *front matter*, the stuff at the top between the three dashes (`---`)
 4. Open a pull request to my repo
+5. Netlify will generate a preview, have a look at it (I will too)
 
 ## Hugo-connaisseur contribution
 

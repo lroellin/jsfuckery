@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://jsfuckery.com/"
+baseurl = "jsfuckery.com/"
 languageCode = "en"
 title = "JSFuckery"
 theme = "hugo-theme-cactus-plus"

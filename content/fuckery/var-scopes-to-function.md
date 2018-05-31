@@ -8,7 +8,11 @@ githubUsername: "lroellin"
 function foo() {
     {
         var x = 5
+        let y = 6
+        let z = 7
     }
     console.log(x) // 5
+    console.log(y) // undefined
+    console.log(z) // undefined
 }
 ```

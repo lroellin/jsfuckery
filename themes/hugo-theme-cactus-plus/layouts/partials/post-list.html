@@ -2,18 +2,15 @@
     {{ range where .Paginator.Pages "Params.hidden" "ne" "true" }}
     {{ $url := replace .Permalink .Site.BaseURL "" }}
         {{ if ne $url "about/" }}
-            <li>
-                <aside class="dates">{{ .Date.Format "Jan 2" }}</aside>
-                <a href='{{ .Permalink }}'>
-                    {{ .Title }}
-                    {{ if .Site.Params.enableSummary }}
-                        {{ if .Site.Params.useDescriptionReplaceSummary }}
-                            <h2>{{ .Description | plainify }}</h2>
-                        {{ else }}
-                            <h2>{{ .Summary | plainify }}</h2>
-                        {{ end }}
-                    {{ end }}
-                </a>
+            <li class="post">
+                <a href='{{ .Permalink }}'>{{ .Title }}</a>
+                <h2 class="headline">
+                        {{ .Date.Format "Jan 2" }}
+                    · <a href="https://github.com/{{ .Params.githubUsername }}" class="github">{{ .Params.githubUsername }}</a>
+                </h2>
+                <section id="post-body">
+                    {{ .Content }}
+                </section>
             </li>
         {{ end }}
     {{ end }}
